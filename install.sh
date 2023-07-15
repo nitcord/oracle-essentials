@@ -47,4 +47,4 @@ sleep 3
 sudo neofetch
 sleep 2
 
-echo "Installation has been successfully completed!"
+echo "Installation has been completed successfully!"
