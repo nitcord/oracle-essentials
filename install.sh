@@ -1,3 +1,5 @@
+#!/bin/bash
+
 sudo systemctl stop iptables
 sudo systemctl disable iptables
 sudo iptables -F
