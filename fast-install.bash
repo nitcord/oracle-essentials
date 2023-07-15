@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "Starting Installation.."
+sleep 3
 
 echo "Configuring updates.."
 sudo apt update
