@@ -44,9 +44,7 @@ echo "Installing neofetch.."
 sleep 2
 sudo apt-get install neofetch -y
 sleep 3
-sudo neofetch
-sleep 2
-
 neofetch
+sleep 2
 
 echo "Installation has been completed successfully!"
