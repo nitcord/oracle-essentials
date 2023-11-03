@@ -3,12 +3,12 @@
 echo "Starting Installation.."
 sleep 3
 
-echo "Configuring Updates.."
+echo "Updating.."
 sleep 2
 sudo apt update
 sleep 3
 
-echo "Configuring iptables.."
+echo "Disabling iptables.."
 sleep 2
 sudo systemctl stop iptables
 sudo systemctl disable iptables
@@ -35,9 +35,9 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 sleep 3
 
-echo "Installing Node.."
+echo "Installing Node LTS.."
 sleep 2
-nvm install node
+nvm install lts
 sleep 3
 
 echo "Installing neofetch.."
@@ -46,5 +46,7 @@ sudo apt-get install neofetch -y
 sleep 3
 sudo neofetch
 sleep 2
+
+neofetch
 
 echo "Installation has been completed successfully!"
