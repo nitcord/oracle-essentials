@@ -22,10 +22,10 @@ sleep 3
 
 echo "Configuring ufw.."
 sleep 2
-sudo ufw allow 22/tcp
-sudo ufw allow 80/tcp
-sudo ufw allow 443/tcp
-sudo ufw enable
+sudo ufw --force allow 22/tcp
+sudo ufw --force allow 80/tcp
+sudo ufw --force allow 443/tcp
+sudo ufw --force enable
 sleep 3
 
 echo "Installing nvm.."
