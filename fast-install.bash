@@ -21,7 +21,6 @@ sudo ufw --force allow 22/tcp
 sudo ufw --force allow 80/tcp
 sudo ufw --force allow 443/tcp
 sudo ufw --force enable
-sudo ufw enable
 
 echo "Installing nvm.."
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | sudo bash
