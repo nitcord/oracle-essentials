@@ -35,9 +35,9 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 sleep 3
 
-echo "Installing Node [LTS].."
+echo "Installing Node.."
 sleep 2
-nvm install lts
+nvm install node
 sleep 3
 
 echo "Installing neofetch.."
