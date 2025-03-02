@@ -2,6 +2,3 @@
 ```bash
 curl -sSL https://raw.githubusercontent.com/nitcord/oracle-essentials/main/install.sh | sudo bash
 ```
-```bash
-curl -sSL https://raw.githubusercontent.com/nitcord/oracle-essentials/main/fast-install.sh | sudo bash
-```
