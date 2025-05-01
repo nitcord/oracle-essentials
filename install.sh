@@ -17,9 +17,7 @@ sudo iptables -P FORWARD ACCEPT
 sudo iptables -P OUTPUT ACCEPT
 
 echo "Configuring ufw.."
-sudo ufw --force allow 22/tcp
-sudo ufw --force allow 80/tcp
-sudo ufw --force allow 443/tcp
+sudo ufw --force limit 22/tcp
 sudo ufw --force enable
 
 echo "Installing nvm.."
